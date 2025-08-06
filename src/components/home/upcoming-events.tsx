@@ -45,7 +45,7 @@ const UpcomingEvents = () => {
                 }}>
                     <CalendarOutlined />
                     <Text size="sm" style={{ marginLeft: "0.7rem" }}>
-                        Upcoming Events
+                        Upcoming Assignments
                     </Text>
                 </div>
             }

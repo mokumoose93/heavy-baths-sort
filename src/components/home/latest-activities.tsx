@@ -50,7 +50,7 @@ const LatestActivities = () => {
                         size="sm"
                         style={{ marginLeft: '0.5rem' }}
                     >
-                        Latest Activities
+                        Latest Activity
                     </Text>
                 </div>
             )}

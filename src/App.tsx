@@ -23,6 +23,7 @@ import EditPage from "./pages/company/edit";
 import TasksList from "./pages/tasks/list";
 import CreateTask from "./pages/tasks/create";
 import EditTask from "./pages/tasks/edit";
+import FilesList from "./pages/files/files-list";
 
 // import { createClient } from "graphql-ws";
 // import { authProvider } from "./authProvider";
@@ -88,6 +89,10 @@ function App() {
                   >
                     <Route path="new" element={<CreateTask />} />
                     <Route path="edit/:id" element={<EditTask />} />
+                  </Route>
+                  <Route path="/files">
+                    <Route index element={<FilesList />} />
+
                   </Route>
                 </Route>
               </Routes>

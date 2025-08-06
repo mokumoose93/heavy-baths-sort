@@ -73,7 +73,7 @@ const DealsChart = () => {
                 >
                     <DollarOutlined />
                     <Text size="sm" style={{ marginLeft: '0.5rem' }}>
-                        Deals
+                        Grades
                     </Text>
                 </div>
             }
